@@ -1,0 +1,33 @@
+.footer {
+    background-color: #4CAF50;
+    color: #fff;
+    height:250px;
+    padding: 20px 0;
+    text-align: center;
+    margin-top:200px;
+    margin-bottom:-30px;
+    width: 208.2vh; 
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px; /* Add a max-width to center content and limit width */
+    margin: 0 auto; /* Center the content horizontally */
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .footer h2 {
+    margin-bottom: 10px;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  .content{
+    margin-top:200px;
+  }

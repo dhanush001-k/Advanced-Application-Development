@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+  h2{
+    color:black;
+  }
+
+  #l1{
+    font-size: 17px;
+  }
+  #l2{
+    font-size:18px;
+  }
+
+  #hh1{
+    font-size:40px;
+    color:#00a6ff;
+    font-weight: 900;
+  }
+
+  #p1{
+    color:rgb(34, 107, 27);
+    font-size:15px;
+    font-weight: bold;
+  }
+
+
+  .page-container {
+    background-image: url('D:\Advance_App\react-app\src\assets\loanagro.jpg');
+    background-size: cover;
+    height:500px;
+    width:700px;
+    background-position: center;
+    margin-top:20px;
+    background-repeat: no-repeat;
+   
+  }
+
+  
+
+ #para{
+  width:80%;
+ }
+
+  .styled-table {
+    width: 70%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    border: 2px solid #d7d2d2;
+  }
+  
+  .styled-table th,
+  .styled-table td {
+    color:black;
+    padding: 8px;
+    background-color:#ffffff;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .styled-table th {
+    background-color: #0238ff;
+    color:white;
+  }
+
+  marquee{
+    color:red;
+    font-size:30px;
+  }
+
+
+  #box1{
+    background-color: white;
+    height:450px;
+    width:650px;
+    margin-left:30px;
+  }
+  #box2{
+    /* display:flex; */
+    background-color: white;
+    float:left;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 20px;
+    height:450px;
+    width:650px;
+    margin-left:30px;
+  }
+
+  #bbox{
+    /* display:flex; */
+    width:100%;
+    height:800px;
+    background-color: white;
+  }
+
+  #he1{
+    font-size: 20px;
+  }
+
+  #pa{
+    font-size:17px;
+    font-weight: 300;
+  }
+
+  #re{
+    font-weight:600;
+  }
+
+
+/* 
+
+  .styled-table {
+    width: 80%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out; 
+  }
+  
+  .styled-table th,
+  .styled-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  
+  .styled-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+
+
+
+
+
+
+ */
+
+
+
+
+
+
+
+  
+/* 
+
+
+
+ .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+  }
+  
+  .nav-elements ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-elements ul li {
+    margin-right: 15px;
+  }
+  
+  .nav-elements a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .nav-elements a:hover {
+    color: #ddd;
+  } */
