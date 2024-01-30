@@ -1,0 +1,32 @@
+
+@media (max-width: 768px) {
+    .slide-container {
+      max-width: 100%;
+      min-height:100px;
+    }
+    .slide-container .each-slide > div {
+      background-size: cover;
+      background-position: center;
+      height: 100px; 
+    }
+
+
+  }
+
+.slide-container{
+  margin-top:80px;
+}
+
+.slide-container{
+    width:800px;
+    position:relative;
+    background-color: aliceblue;
+  }
+
+  h2{
+    color:white;
+  }
+
+  #slideimg{
+    height:500px;
+  }
