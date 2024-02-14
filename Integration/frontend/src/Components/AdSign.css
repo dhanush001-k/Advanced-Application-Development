@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+#bck {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    height: 100vh; /* Set the height of the background to fill the viewport */
+    display: flex; /* Add flexbox display to center the content vertically */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+  background-image:url('../images/Adlog.jpg');
+}
+
+.awrapper {
+  position: relative;
+  max-width: 470px;
+  border:5px solid rgb#000000a4;
+  width: 1000%;
+  border-radius: 12px;
+  padding: 20px 30px 120px;
+  background: #0000007d;
+  box-shadow: 0 5px 10px rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+}
+
+.form.alogin {
+  position: absolute;
+  left: 50%;
+  bottom: -86%;
+  transform: translateX(-50%);
+  width: calc(100% + 220px);
+  padding: 20px 140px;
+  border-radius: 50%;
+  height: 100%;
+  border:5px solid blue;
+  background: #ffffff;
+  transition: all 0.6s ease;
+}
+
+.awrapper.active .form.alogin {
+  bottom: -15%;
+  border-radius: 35%;
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form header {
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+form input {
+  height: 50px;
+  outline: none;
+  border: none;
+  padding: 0 15px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.form.alogin input {
+  border: 1px solid #aaa;
+}
+
+.form.asignup input{
+  width:90%;
+  margin-left:20px;
+}
+.form.alogin input:focus {
+  box-shadow: 0 1px 0 #ddd;
+}
+
+form .acheckbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.acheckbox input[type="checkbox"] {
+  height: 16px;
+  width: 16px;
+  accent-color: #0839ff;
+  cursor: pointer;
+}
+
+form .acheckbox label {
+  cursor: pointer;
+  font-size: larger;
+  font-weight: 900;
+  color: #000000;
+}
+
+form a {
+  color: #333;
+  text-decoration: none;
+}
+
+form a:hover {
+  text-decoration: underline;
+}
+
+form input[type="submit"] {
+  margin-top: 15px;
+  padding: none;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.form.alogin input[type="submit"] {
+  background: #4070f4;
+  color: #fff;
+  width:100px;
+  height:50px;
+  border: none;
+}
+
+
+
+#sh{
+  color:#ffffff;
+}
+
+#ac{
+  color:white;
+}
+#lh{
+  color:black;
+}
+
+#in{
+  box-shadow: 0 1px 0 #626161;
+  border: 1px solid #aaa;
+}
+
+.form.asignup input[type="submit"] {
+    background: #4070f4;
+    color: #fff;
+    width:100px;
+    height:50px;
+    border: none;
+  }
+
+  .error{
+    color:black;
+  }

@@ -1,0 +1,17 @@
+#fbox{
+    height:1100px;
+    width:80%;
+    background-color: rgb(237, 235, 240);
+    margin-top:100px;
+    margin-left:140px;
+    border-radius: 10px;
+}
+ol{
+    margin-left:30px;
+    font-weight: 600;
+    font-size: 20px;
+}
+#ans{
+    font-size:15px;
+    font-weight: 0;
+}
